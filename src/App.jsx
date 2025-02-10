@@ -1,5 +1,6 @@
 import { useState } from "react";
 import livitlogo from "./assets/livitlogo.jpeg";
+import profitplay from './assets/profitplay.jpeg';
 import "./App.css";
 
 function App() {
@@ -27,9 +28,10 @@ function App() {
   return (
     <div className="container">
       <div className="logo-container">
-        <img src={livitlogo} className="logo" alt="Livit Logo" />
+        <img src={profitplay} className="logo" alt="Livit Logo" />
       </div>
 
+      <h2>PROFITPLAY</h2>
       <h2>Account Deletion Request</h2>
 
       <form onSubmit={handleSubmit} className="account-deletion-form" >
