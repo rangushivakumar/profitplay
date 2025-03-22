@@ -66,7 +66,7 @@ function App() {
           <p><strong>College Code:</strong> {data[0].collegeCode}</p>
           <p><strong>Year:</strong> {data[0].year}</p>
           <p><strong>Placement Percentage:</strong> {data[0].placementPercentage}%</p>
-          <p><strong>Highest Package:</strong> {data[0].highestPackage} LPA</p>
+          {/* <p><strong>Highest Package:</strong> {data[0].highestPackage} LPA</p> */}
         </div>
       ) : (
         <p>Loading placement data...</p>
